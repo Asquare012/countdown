@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* primary color */
+    --grayish-blue: #8486a9;
+    --soft-red: #fb6087;
+    /* Neutral */
+    --white: #ffffff;
+    --dark-desaturated-blue: #343650;
+    --dark-blue: #1e1f29;
+    /*  mostly black */
+    --very-dark-blue: #191a24;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url(bg-stars.svg);
+    font-family: "Space Mono", monospace;
+}
+
+#container #top {
+    flex: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container #top .one {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#container #top .two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container #top .two>div {
+    height: 32vh;
+    width: 14vw;
+    margin: 20px;
+}
+
+#container #top .two>div .box {
+    height: 60%;
+    font-size: 7em;
+    background: var(--dark-desaturated-blue);
+    background: linear-gradient( to right, var(--dark-desaturated-blue), var(--dark-blue));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--soft-red);
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: 0 7px 5px #000000;
+}
+
+#container #top .two>div .label {
+    height: 20%;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: var(--grayish-blue);
+    padding-top: 20px;
+}
+
+#container #bottom {
+    flex: 20%;
+    background: url(pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container #bottom img {
+    margin: 0 1%;
+}
+
+@media screen and (max-width: 1000px) {
+    #container #top .two>div {
+        width: 20vw;
+        margin: 15px;
+    }
+    #container #top .two>div .box {
+        font-size: 7em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #container #top .two>div {
+        width: 20vw;
+        height: 23vh;
+        margin: 10px;
+    }
+    #container #top .two>div .box {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #container #top .two>div {
+        width: 22vw;
+        height: 23vh;
+        margin: 5px;
+    }
+    #container #top .two>div .box {
+        font-size: 5em;
+    }
+}
