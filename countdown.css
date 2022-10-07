@@ -107,23 +107,32 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+    #container #top .one {
+        font-size: 25px;
+    }
     #container #top .two>div {
         width: 20vw;
-        height: 23vh;
+        height: 22vh;
         margin: 10px;
     }
     #container #top .two>div .box {
         font-size: 5em;
+    }
+    #container #top .two>div .label {
+        font-size: 1.3em;
     }
 }
 
 @media screen and (max-width: 400px) {
     #container #top .two>div {
         width: 22vw;
-        height: 23vh;
+        height: 20vh;
         margin: 5px;
     }
     #container #top .two>div .box {
-        font-size: 5em;
+        font-size: 3.5em;
+    }
+    #container #top .two>div .label {
+        font-size: 1.1em;
     }
 }
