@@ -55,7 +55,7 @@ body {
 }
 
 #container #top .two>div {
-    height: 32vh;
+    height: 30vh;
     width: 14vw;
     margin: 20px;
 }
@@ -112,7 +112,7 @@ body {
     }
     #container #top .two>div {
         width: 20vw;
-        height: 22vh;
+        height: 20vh;
         margin: 10px;
     }
     #container #top .two>div .box {
@@ -123,13 +123,13 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #container #top .one {
         font-size: 22px;
     }
     #container #top .two>div {
-        width: 22vw;
-        height: 20vh;
+        width: 20vw;
+        height: 18vh;
         margin: 5px;
     }
     #container #top .two>div .box {
