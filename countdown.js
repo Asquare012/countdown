@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-let countDownDate = new Date("oct 18, 2022 15:37:25").getTime();
+let countDownDate = new Date("Dec 31, 2022 15:37:25").getTime();
 setInterval(timing, 1000);
 
 function timing() {
