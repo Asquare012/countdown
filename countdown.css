@@ -124,6 +124,9 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+    #container #top .one {
+        font-size: 22px;
+    }
     #container #top .two>div {
         width: 22vw;
         height: 20vh;
@@ -134,5 +137,20 @@ body {
     }
     #container #top .two>div .label {
         font-size: 1.1em;
+    }
+    @media screen and (max-width: 330px) {
+        #container #top .one {
+            font-size: 20px;
+        }
+        #container #top .two>div {
+            width: 19vw;
+            height: 15vh;
+        }
+        #container #top .two>div .box {
+            font-size: 2.5em;
+        }
+        #container #top .two>div .label {
+            font-size: 0.8em;
+        }
     }
 }
