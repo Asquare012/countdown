@@ -133,10 +133,10 @@ body {
         margin: 5px;
     }
     #container #top .two>div .box {
-        font-size: 3.5em;
+        font-size: 3.3em;
     }
     #container #top .two>div .label {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
     @media screen and (max-width: 330px) {
         #container #top .one {
